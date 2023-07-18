@@ -1,0 +1,8 @@
+/* Mobile Device */
+@media screen and (max-width: 500px) {
+    .nav-container, .menubar{
+        flex-direction: column;
+        /* width: 100%; */
+        margin: 0;
+    }
+}
