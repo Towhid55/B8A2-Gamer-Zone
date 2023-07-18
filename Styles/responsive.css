@@ -5,4 +5,20 @@
         /* width: 100%; */
         margin: 0;
     }
+
+    .banner-container{
+        flex-direction: column;
+        padding: 40px 0;
+       
+    }
+
+    .banner-content{
+        width: 100%;
+        text-align: center;
+    }
+
+    .btn-design{
+        margin: 0 auto;
+        /* margin-left: 15px; */
+    }
 }
