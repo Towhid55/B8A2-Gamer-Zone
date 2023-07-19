@@ -3,7 +3,8 @@
 /* common style */
     .nav-container,
     .menubar,
-    .card-container {
+    .card-container,
+    .play-section {
         flex-direction: column;
         /* width: 100%; */
         margin: 0;
@@ -47,12 +48,41 @@
         padding: 0; */
     }
 
+    
     .play-btn {
         right: 183px;
         top: 2089px;
         text-align: center;
     }
+
+/* play games section */
+
+    .play-section-title>h3{
+        width: 100%;
+        text-align: center;
+    }
+
+    .play-section-title .play-description{
+        width: 100%;
+        text-align: center;
+    }
+
+    
+
+    .play-img img{
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        margin-left: 84px;
+    }
+
+    .play-img .side-img{
+        top: 3264px;
+        left: -38px;
+        width: 40%;
+    }
 }
+
 
 /* tablet Device */
 
@@ -60,7 +90,8 @@
 /* common */
     .nav-container,
     .menubar,
-    .card-container {
+    .card-container,
+    .play-section {
         flex-direction: column;
         /* width: 100%; */
         margin: 0;
@@ -112,5 +143,31 @@
         right: 366px;
         top: 2155px;
         text-align: center;
+    }
+
+    /* Play game section */
+    .play-section-title>h3{
+        width: 100%;
+        text-align: center;
+    }
+
+    .play-section-title .play-description{
+        width: 100%;
+        text-align: center;
+    }
+
+    
+
+    .play-img img{
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+        margin-left: 84px;
+    }
+
+    .play-img .side-img{
+        top: 3464px;
+        left: -38px;
+        width: 40%;
     }
 }
