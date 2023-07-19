@@ -4,7 +4,8 @@
     .nav-container,
     .menubar,
     .card-container,
-    .play-section {
+    .play-section
+{
         flex-direction: column;
         /* width: 100%; */
         margin: 0;
@@ -81,6 +82,71 @@
         left: -38px;
         width: 40%;
     }
+
+/* Game Icon section */
+   
+    .game-option{
+        gap: 5px;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        width: 100%;
+        
+    }
+
+    .game-option .game-icon a img {
+        margin-right: 4px;
+        height: 16px;
+    }
+
+    .game-option .game-icon a {
+        color: #0B0223;
+        font-size: 8px;
+      }
+
+   
+
+
+     
+      .game-option .game-icon {
+        border: 1px solid #ff42a400;
+        padding: 5px;
+        
+      }
+    
+    
+
+
+
+
+
+     /* Footer section */
+    .menu-option>ul {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        
+       
+    
+    }
+
+    .icon-section{
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        
+       
+    }
+
+    .terms-condition>ul{
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        text-align: center;
+       font-size: 12px;
+       margin-right: 50px;
+    }
+
+
+      
 }
 
 
@@ -170,4 +236,46 @@
         left: -38px;
         width: 40%;
     }
+
+
+    /* Game icon section */
+    .game-option{
+        gap: 5px;
+        margin: 0;
+        padding: 0;
+        display: grid;
+        grid-template-columns: repeat(5, auto);
+        width: 100%;
+    }
+
+    .game-option .game-icon a img {
+        margin-right: 4px;
+        height: 16px;
+    }
+
+    .game-option .game-icon a {
+        color: #0B0223;
+        font-size: 8px;
+      }
+
+     
+      .game-option .game-icon {
+        border: 1px solid #ff42a400;
+        padding: 5px;
+        
+      }
+
+
+
+    /* Footer section */
+
+    .footer-logo{
+        width: 100%;
+    }
+
+
+
+
+
+
 }
