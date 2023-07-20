@@ -239,14 +239,12 @@ span {
 
 .card-section {
     margin: 0 200px;
-    /* width: 1200px; */
+
 }
 
 .card-container {
     display: flex;
-    /* justify-content: space-evenly; */
     gap: 20px;
-    /* width: 1200px; */
 
 
 }
@@ -281,14 +279,13 @@ span {
 
 
 .play-btn {
-    /* align-items: center;
-    margin: 0 auto; */
+
     position: absolute;
     right: 550px;
     top: 900px;
     width: 40px;
     text-align: center;
-    /* padding: 50px 50px; */
+
 }
 
 .play-btn .button-img {
@@ -453,7 +450,7 @@ span {
     width: 100%;
     display: flex;
     justify-content: center;
-    /* text-align: center; */
+
 }
 
 .logo-title .footer-header {
@@ -481,7 +478,7 @@ span {
     display: flex;
     justify-content: center;
     gap: 50px;
-    /* width: 100px; */
+
 }
 
 .icon-section .fa-brands {
@@ -572,14 +569,6 @@ span {
     font-style: normal;
     font-weight: 500;
     line-height: 45px;
-    /* 187.5% */
+
 }
 
-
-
-
-
-
-.hide{
-    display: none;
-}
