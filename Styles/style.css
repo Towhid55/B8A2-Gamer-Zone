@@ -114,9 +114,10 @@ span {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
-.fa-regular, .fa-download {
+.fa-regular,
+.fa-download {
     color: #F948B2;
-  }
+}
 
 .banner-content {
     width: 50%;
@@ -165,6 +166,71 @@ span {
 
 /* card section */
 
+/* card hover start */
+
+.image {
+    position: relative;
+    width: 400px;
+
+}
+
+.image__img {
+    display: block;
+    width: 100%;
+
+
+}
+
+.image_overly {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80%;
+    background: rgba(0, 0, 0, 0.6);
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+
+}
+
+
+.image_overly>* {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+
+}
+
+.image_overly:hover {
+    opacity: 1;
+    border: 3px solid #F948B2;
+
+}
+
+.image_overly:hover>* {
+    transform: translateY(0);
+}
+
+.image_title {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.image_description {
+    font-size: 1.25em;
+    margin-top: 0.25em;
+}
+
+
+
+/* card hover End */
+
+
+
 .card-header {
     margin-top: 60px;
     text-align: center;
@@ -211,9 +277,7 @@ span {
     height: 30px;
 }
 
-.img-title .color {
-    filter: brightness(50%);
-}
+
 
 .play-btn {
     /* align-items: center;
@@ -266,7 +330,7 @@ span {
 
 .play-img .side-img {
     position: absolute;
-    top: 1416px;
+    top: 1916px;
     left: 744px;
     width: 13%
 }
@@ -297,88 +361,81 @@ span {
     margin: 90px 0 0 0;
     padding: 100px 100px 90px 100px;
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-  }
-  
- .game-option {
+}
+
+.game-option {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
-  }
-  
+}
 
 
-  .game-option .game-icon a img {
+
+.game-option .game-icon a img {
     height: 40px;
     margin-right: 10px;
-  }
+}
 
-  
- .game-option .game-icon {
- 
-        text-align: center;
-        border: none;
-        border-radius: 25px;
-        cursor: pointer;
-        transition: transform 0.2s ease;
-    
-    }
 
-    .game-icon:hover {
-        border: 1px solid #F948B2;
-         transform: translateY(-5px); 
-      }
+.game-option .game-icon {
 
-      .game-option .game-icon:hover a {
-        color: #FF42A5;
-      } 
+    text-align: center;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
 
-    .game-option .button-name {
-        margin-top: 30px;
-        display: flex;
-        justify-content: center;
-      }
-  
- .game-option .game-icon a {
+}
+
+.game-icon:hover {
+    border: 1px solid #F948B2;
+    transform: translateY(-5px);
+}
+
+.game-option .game-icon:hover a {
+    color: #FF42A5;
+}
+
+.game-option .button-name {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.game-option .game-icon a {
     color: #0B0223;
     font-size: 20px;
     font-weight: 600;
     display: flex;
     align-items: center;
     text-decoration: none;
-  }
+}
 
 
+.gammer-title {
+    text-align: right;
+    font-size: 1rem;
+}
 
- 
-  
-
-  
-
-  
-
-
-
+.gammer-des {
+    text-align: right;
+}
 
 
+.gammer-heading .gammer-des2 {
+    text-align: right;
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 45px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.gammer-des2 {
+    font-size: 12px;
+}
 
 
 
@@ -431,7 +488,8 @@ span {
     text-align: center;
 }
 
-.terms-condition>ul, .water-mark {
+.terms-condition>ul,
+.water-mark {
     margin: 50px;
     list-style: none;
     display: flex;
@@ -446,7 +504,7 @@ span {
 
 }
 
-.water-mark{
+.water-mark {
     margin-bottom: 0;
     padding-bottom: 70px;
     color: rgba(255, 255, 255, 0.60);
@@ -455,4 +513,63 @@ span {
     font-weight: 500;
 
 
+}
+
+/* Second banner section */
+
+.we-are-gammer {
+    align-items: center;
+    width: 50%;
+    padding-top: 3rem;
+}
+
+.we-are-gammer .gammer-title {
+    text-align: right;
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: lowercase;
+
+}
+
+.we-are-gammer .gammer-des {
+    text-transform: unset;
+    width: 500px;
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 1.1rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+
+.we-are-gammer .btn-secondary {
+    margin-left: 17.1rem;
+    margin-top: 1.2rem;
+}
+
+.we-are-gammer .gammer-heading {
+    color: #534C64;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    line-height: 45px;
+}
+
+.we-are-gammer .gammer-des2 {
+    color: #080808 !important;
+    text-align: right;
+    font-family: Work Sans;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 45px;
+    /* 187.5% */
 }
