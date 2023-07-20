@@ -19,6 +19,11 @@
 
     }
 
+    .logo-title {
+        margin-right: 57px;
+        
+    }
+
     .banner-content {
         width: 100%;
         text-align: center;
@@ -33,7 +38,17 @@
         margin-bottom: 30px;
     }
 
+/* 2nd Banner */
+.we-are-gammer  .gammer-des{
+    width:26rem;
+}
+
+.we-are-gammer .btn-secondary {
+    margin-left: 13.1rem;
+}
+
     /* Card section */
+
     .card-section {
         margin: 0;
         text-align: center;
@@ -82,8 +97,8 @@
     }
 
     .play-img .side-img{
-        top: 3264px;
-        left: -38px;
+        top: 4024px;
+        left: -74px;
         width: 40%;
     }
 
@@ -109,8 +124,6 @@
         font-size: 8px;
       }
 
-   
-
 
      
       .game-option .game-icon {
@@ -120,15 +133,11 @@
       }
     
     
-
-
-
-
-
      /* Footer section */
     .menu-option>ul {
         display: grid;
         grid-template-columns: repeat(3, auto);
+        margin-right: 29px
         
        
     
@@ -150,13 +159,48 @@
     }
 
 
-      
+    /* card hover  */
+
+ .image img{
+    margin: 0 auto;
+} 
+
+ .image_overly{
+    width: 80%;
+    width: 61%;
+    left: 77px
 }
+    
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* tablet Device */
 
-@media screen and (min-width: 576px) and (max-width: 992px) {
+@media screen and (min-width: 577px) and (max-width: 992px) {
 /* common */
     .nav-container,
     .menubar,
@@ -175,6 +219,7 @@
 
     .logo-title {
         width: 35%;
+        
     }
 
     .banner-container {
@@ -193,7 +238,49 @@
         /* margin-left: 15px; */
     }
 
+/* 2nd banner */
+    .we-are-gammer  .gammer-des{
+        width:48rem;
+        text-align: center;
+    }
+    .we-are-gammer  .gammer-title{
+        text-align: center;
+    }
+    
+    .we-are-gammer .btn-secondary {
+        margin-left: 1.8rem;
+    }
+
+    .we-are-gammer  .gammer-heading{
+        text-align: center;
+    }
+
+
+
     /* card section */
+
+/* card hover */
+
+.image img{
+    margin: 0 auto;
+}
+
+
+.image_overly{
+    width: 71%;
+    left: 50px
+}
+
+.image {
+    position: relative;
+    width: 339px;
+    margin-left: 14rem;
+}
+
+
+
+
+
     .card-section {
         margin: 0;
         text-align: center;
@@ -219,6 +306,9 @@
         text-align: center;
     }
 
+   
+
+
     /* Play game section */
     .play-section-title>h3{
         width: 100%;
@@ -236,13 +326,13 @@
         width: 70%;
         margin: 0 auto;
         text-align: center;
-        margin-left: 84px;
+        margin-left: 110px;
     }
 
     .play-img .side-img{
-        top: 3464px;
-        left: -38px;
-        width: 40%;
+        top: 4350px;
+        left: -69px;
+        width: 35%
     }
 
 
@@ -281,7 +371,15 @@
         width: 100%;
     }
 
+    .menu-option>ul{
+        margin-right: 45px;
+    }
 
+
+
+
+
+    
 
 
 

@@ -196,6 +196,7 @@ span {
     opacity: 0;
     transition: opacity 0.25s;
 
+
 }
 
 
@@ -330,9 +331,9 @@ span {
 
 .play-img .side-img {
     position: absolute;
-    top: 1916px;
+    top: 1900px;
     left: 744px;
-    width: 13%
+    width: 13%;
 }
 
 .play-section-title>h3 {
@@ -572,4 +573,13 @@ span {
     font-weight: 500;
     line-height: 45px;
     /* 187.5% */
+}
+
+
+
+
+
+
+.hide{
+    display: none;
 }
